@@ -1,0 +1,110 @@
+@import url('https://fonts.cdnfonts.com/css/tf2-build');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'TF2 Build', sans-serif;
+}
+
+.navigation{
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(28, 28, 28);
+    transition: top 0.3s ease;
+    position: fixed;
+}
+
+
+
+
+.navlist a{
+text-decoration: none;
+padding: 1rem;
+font-size: 1.6rem;
+padding-bottom: 1rem;
+color: rgb(95, 208, 50);
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(28, 28, 28);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(47, 46, 46);
+}
+
+section{
+    height: 140vh;
+    width: 100%;
+    background-color: rgb(47, 46, 46);
+    display: flex;
+
+    justify-content: center;
+}
+
+.profilebox{
+    margin-top: 8rem;
+    width: 60vw;
+    height: 100vh;
+}
+
+.profilesec{
+    background-color: rgb(28, 28, 28);
+    height: 30vh;
+    width: 60vw;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar{
+    width: 30%;
+    height: auto;
+}
+
+.info{
+    width: 45%;
+    height: auto;
+}
+.itemsinfo{
+    width: 25%;
+    height: auto;
+}
+.nickname{
+    padding: 2rem;
+    color: white;
+}
+
+.avatarimg{
+    padding: 2rem
+}
+.achsec{
+    color: white;
+    text-align: center;
+}
+
+.itemsinfo{
+    color: rgb(156, 156, 156);
+    float: left;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.invsec{
+    background-color: rgb(28, 28, 28);
+    height: 70vh;
+    width: 60vw;
+}
+
+footer{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(36, 94, 13);
+    clear: both;
+}
